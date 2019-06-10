@@ -6,4 +6,8 @@ module.exports = (app) => {
         res.sendFile(path.resolve(__dirname, '../' ,'client', 'todo', 'build', 'index.html'));
     });
 
+    app.get('/cos', function(req, res) {
+        res.send('Hejo :D')
+      });
+
 }
