@@ -2,10 +2,11 @@ import React, { Component } from 'react';
 import { Router, Route } from 'react-router-dom';
 
 import history from './services/history';
-import MainPanel from './components/MainPanel'
-import Register from './components/Register'
+import MainPanel from './components/MainPanel';
+import Register from './components/Register';
 import Header from './components/Header';
-import Login from './components/Login'
+import Login from './components/Login';
+import ToDoPanel from './components/ToDoPanel';
 
 import 'bootstrap/dist/css/bootstrap.css';
 import './styles/myStyles.css';
@@ -26,6 +27,7 @@ class App extends Component {
                             <Route   exact path="/" component={MainPanel} />
                             <Route   exact path="/logowanie" component={Login} />
                             <Route   exact path="/rejestracja" component={Register} />
+                            <Route   exact path="/todo" component={ToDoPanel} />
 
                             {/* ------------------------------------------------- */}
 
