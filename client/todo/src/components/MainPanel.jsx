@@ -10,12 +10,13 @@ class MainPanel extends Component {
 
 
                         <h2 className="text-center">
-                            Witaj na stronie !
+                            ToDo App
                         </h2>
 
-                         <h3 className="text-center text-light">
-                            Śmiało, zaloguj się !
-                        </h3> 
+                         <h2 className="text-center text-light mt-0">
+                            <i class="fas fa-tasks"></i>
+                            {/* Śmiało, zaloguj się ! */}
+                        </h2> 
                         
                     </div>
                 </div>

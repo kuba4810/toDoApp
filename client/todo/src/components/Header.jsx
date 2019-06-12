@@ -12,7 +12,7 @@ class Header extends Component {
                      <h4>ToDo App</h4>
                 </Link>
 
-                <div>
+                <div className="mr-5">
                     <Link to={"/logowanie"} className="ml-2">
                         Logowanie
                     </Link>
